@@ -26,4 +26,14 @@ vehicle = ("car ")
 
 print(name + "is a very " + adjective + "person to be around. He likes to " + verb + "a " + place+"." + "He also likes to eat " + food + "in his " + vehicle + ".")
 
+minutes = 30*60
+print(int(input(minutes))*60) 
+
+double = 7*2
+print(int(input(double))*2)
+
+age = 65*365
+print(int(input(age))*365) 
+
+
 
