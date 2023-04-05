@@ -17,9 +17,13 @@ meat = "pork"
 meat = "beef"
 print(meat, meat, meat)
 
-name = input("Felix")
-adjective = input("cool")
-verb = input("sleep")
-place = input("home")
-food = input("sugar")
-vehicle = input("car")
+name = ("Felix ")
+adjective = ("cool ")
+verb = ("sleep ")
+place = ("home ")
+food = ("sugar ")
+vehicle = ("car ")
+
+print(name + "is a very " + adjective + "person to be around. He likes to " + verb + "a " + place+"." + "He also likes to eat " + food + "in his " + vehicle + ".")
+
+
