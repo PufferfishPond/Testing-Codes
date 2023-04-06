@@ -37,6 +37,6 @@ print(time*60)
 double = (int(input("Enter a number: ", )))
 print(double*2) 
 age = (int(input("Enter a number: ", )))
-print(age*60) 
+print(age*365) 
 
 
