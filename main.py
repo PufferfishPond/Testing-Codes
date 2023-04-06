@@ -26,8 +26,12 @@ vehicle = input("what is favourite vehicle?")
 
 print(name + " is a very " + adjective + " person to be around. He likes to " + verb + " a " + place+"." + " He also likes to eat " + food + " in his " + vehicle + ".")
 
-minutes = 30*60
-print(int(input(minutes))*60) 
+number1 = int(input("Enter a number: "))
+number2 = int(input("Enter a number: "))
+sum = number1 + number2
+print("the sum of the numbers is: ", sum)
+
+print(int(input(minutes))*2)
 
 double = 7*2
 print(int(input(double))*2)
