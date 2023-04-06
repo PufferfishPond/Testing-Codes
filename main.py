@@ -31,13 +31,12 @@ number2 = int(input("Enter a number: "))
 sum = number1 + number2
 print("the sum of the numbers is: ", sum)
 
-print(int(input(minutes))*2)
 
-double = 7*2
-print(int(input(double))*2)
-
-age = 65*365
-print(int(input(age))*365) 
-
+time = (int(input("Enter a number: ", )))
+print(time*60) 
+double = (int(input("Enter a number: ", )))
+print(double*2) 
+age = (int(input("Enter a number: ", )))
+print(age*60) 
 
 
