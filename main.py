@@ -17,14 +17,14 @@ meat = "pork"
 meat = "beef"
 print(meat, meat, meat)
 
-name = ("Felix ")
-adjective = ("cool ")
-verb = ("sleep ")
-place = ("home ")
-food = ("sugar ")
-vehicle = ("car ")
+name = input("what is your name?")
+adjective = input("what adjective best describes you?")
+verb = input("what do you usually do?")
+place = input("where do you like being?")
+food = input("what is your favourite food?")
+vehicle = input("what is favourite vehicle?")
 
-print(name + "is a very " + adjective + "person to be around. He likes to " + verb + "a " + place+"." + "He also likes to eat " + food + "in his " + vehicle + ".")
+print(name + " is a very " + adjective + " person to be around. He likes to " + verb + " a " + place+"." + " He also likes to eat " + food + " in his " + vehicle + ".")
 
 minutes = 30*60
 print(int(input(minutes))*60) 
